@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-model_worker = ["accelerate>=0.21", "peft", "sentencepiece", "torch==1.12.1", "transformers>=4.31.0", "protobuf"]
+model_worker = ["accelerate>=0.21", "peft", "sentencepiece", "torch==1.13.0", "transformers>=4.31.0", "protobuf"]
 webui = ["gradio"]
 train = ["einops", "flash-attn>=2.0", "wandb"]
 llm_judge = ["openai", "anthropic>=0.3", "ray"]
